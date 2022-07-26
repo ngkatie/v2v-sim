@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-07-15 18:45:24 by Eclipse SUMO netedit Version 1.13.0
+-->
+
+<routes>
+    
+    <!-- Routes -->
+    <route id="r_0a" edges="1to0 0to3"/>
+    <route id="r_0b" edges="1to0 0to2"/>
+    <route id="r_0c" edges="1to0 0to4"/>
+    <route id="r_1a" edges="2to0 0to4"/>
+    <route id="r_1b" edges="2to0 0to1"/>
+    <route id="r_1c" edges="2to0 0to3"/>
+    <route id="r_2a" edges="3to0 0to1"/>
+    <route id="r_2b" edges="3to0 0to2"/>
+    <route id="r_2c" edges="3to0 0to4"/>
+    <route id="r_3a" edges="4to0 0to2"/>
+    <route id="r_3b" edges="4to0 0to3"/>
+    <route id="r_3c" edges="4to0 0to1"/>
+
+    <!-- Vehicles -->
+    <vehicle id="veh1" length="5" accel="3.5" decel="2.2" sigma="1.0" maxSpeed="10" route="r_0a" depart="0.00"> </vehicle>
+    <vehicle id="veh2" length="3" accel="2.5" decel="1.6" sigma="1.0" maxSpeed="10" route="r_0a" depart="0.00"> </vehicle>
+    <vehicle id="veh3" length="7" accel="4.0" decel="2.2" sigma="1.0" maxSpeed="10" route="r_0b" depart="0.00"> </vehicle>
+    <vehicle id="veh4" length="5" accel="3.5" decel="2.2" sigma="1.0" maxSpeed="10" route="r_0b" depart="0.00"> </vehicle>
+    <vehicle id="veh5" length="3" accel="2.5" decel="1.6" sigma="1.0" maxSpeed="10" route="r_0c" depart="0.00"> </vehicle>
+    <vehicle id="veh6" length="7" accel="4.0" decel="2.2" sigma="1.0" maxSpeed="10" route="r_0c" depart="0.00"> </vehicle>
+    <vehicle id="veh7" length="5" accel="3.5" decel="2.2" sigma="1.0" maxSpeed="10" route="r_1a" depart="0.00"> </vehicle>
+    <vehicle id="veh8" length="3" accel="2.5" decel="1.6" sigma="1.0" maxSpeed="10" route="r_1a" depart="0.00"> </vehicle>
+    <vehicle id="veh9" length="7" accel="4.0" decel="2.2" sigma="1.0" maxSpeed="10" route="r_1b" depart="0.00"> </vehicle>
+    <vehicle id="veh10" length="5" accel="3.5" decel="2.2" sigma="1.0" maxSpeed="10" route="r_1b" depart="0.00"> </vehicle>
+    <vehicle id="veh11" length="3" accel="2.5" decel="1.6" sigma="1.0" maxSpeed="10" route="r_1c" depart="0.00"> </vehicle>
+    <vehicle id="veh12" length="7" accel="4.0" decel="2.2" sigma="1.0" maxSpeed="10" route="r_1c" depart="0.00"> </vehicle>
+    <vehicle id="veh13" length="5" accel="3.5" decel="2.2" sigma="1.0" maxSpeed="10" route="r_2a" depart="0.00"> </vehicle>
+    <vehicle id="veh14" length="3" accel="2.5" decel="1.6" sigma="1.0" maxSpeed="10" route="r_2a" depart="0.00"> </vehicle>
+    <vehicle id="veh15" length="7" accel="4.0" decel="2.2" sigma="1.0" maxSpeed="10" route="r_2b" depart="0.00"> </vehicle>
+    <vehicle id="veh16" length="5" accel="3.5" decel="2.2" sigma="1.0" maxSpeed="10" route="r_2b" depart="0.00"> </vehicle>
+    <vehicle id="veh17" length="3" accel="2.5" decel="1.6" sigma="1.0" maxSpeed="10" route="r_2c" depart="0.00"> </vehicle>
+    <vehicle id="veh18" length="7" accel="4.0" decel="2.2" sigma="1.0" maxSpeed="10" route="r_2c" depart="0.00"> </vehicle>
+    <vehicle id="veh19" length="5" accel="3.5" decel="2.2" sigma="1.0" maxSpeed="10" route="r_3a" depart="0.00"> </vehicle>
+    <vehicle id="veh20" length="3" accel="2.5" decel="1.6" sigma="1.0" maxSpeed="10" route="r_3a" depart="0.00"> </vehicle>
+    <vehicle id="veh21" length="7" accel="4.0" decel="2.2" sigma="1.0" maxSpeed="10" route="r_3b" depart="0.00"> </vehicle>
+    <vehicle id="veh22" length="5" accel="3.5" decel="2.2" sigma="1.0" maxSpeed="10" route="r_3b" depart="0.00"> </vehicle>
+    <vehicle id="veh23" length="3" accel="2.5" decel="1.6" sigma="1.0" maxSpeed="10" route="r_3c" depart="0.00"> </vehicle>
+    <vehicle id="veh24" length="7" accel="4.0" decel="2.2" sigma="1.0" maxSpeed="10" route="r_3c" depart="0.00"> </vehicle>
+
+</routes>
