@@ -473,6 +473,9 @@ main (int argc, char *argv[])
 
         csv_cum_ofstream << numberOfNodes << "," << t1 << "," << t2 << "," << ueTxPower << "," << prrSup->getAveragePRR () << "," << prrSup->getAverageLatency () << std::endl;
       }
+      std::cout << "Number of Vehicles: " << numberOfNodes << std::endl;
+      std::cout << "T1: " << t1 << std::endl;
+      std::cout << "T2: " << t2 << std::endl;
       std::cout << "Average PRR: " << prrSup->getAveragePRR () << std::endl;
       std::cout << "Average latency (ms): " << prrSup->getAverageLatency () << std::endl;
     }
