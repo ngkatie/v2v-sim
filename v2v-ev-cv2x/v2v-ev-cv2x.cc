@@ -17,6 +17,9 @@
  *  Marco Malinverno, Politecnico di Torino (marco.malinverno1@gmail.com)
  *  Francesco Raviglione, Politecnico di Torino (francescorav.es483@gmail.com)
  *  Carlos Mateo Risma Carletti, Politecnico di Torino (carlosrisma@gmail.com)
+ * 
+ * Edited by:
+ *  Katie Ng, Stevens Institute of Technoloy (ngkatie16@gmail.com)
 */
 
 #include "ns3/automotive-module.h"
@@ -38,7 +41,7 @@ int
 main (int argc, char *argv[])
 {
   /*
-   * In this example the generated vehicles will broadcast their CAMs. Every vehicle transmits its messages
+   * In this example the generated vehicles will blubroadcast their CAMs. Every vehicle transmits its messages
    * through a C-V2X mode 4 interface. There are two types of vehicles: normal "passenger" cars and emergency vehicles.
    * When a normal vehicle receives a CAM from an emergency vehicle it performs the following checks:
    * 1) It checks if the distance between itself and the emergency vehicle is under a certain threshold
@@ -52,7 +55,7 @@ main (int argc, char *argv[])
   std::string sumo_config ="scratch/v2v-ev-cv2x/sumo_v2v_map/map.sumo.cfg";
 
   /*** 0.a App Options ***/
-  bool verbose = true;
+  bool verbose = false;
   bool realtime = false;
   bool sumo_gui = true;
   double sumo_updates = 0.01;
@@ -73,7 +76,7 @@ main (int argc, char *argv[])
   uint16_t startRbSubchannel = 0;         // Index of first RB corresponding to subchannelization
   uint16_t pRsvp = 20;                    // Resource reservation interval
   uint16_t t1 = 4;                        // T1 value of selection window
-  uint16_t t2 = 100;                      // T2 value of selection window
+  uint16_t t2 = 20;                      // T2 value of selection window
   uint16_t slBandwidth;                   // Sidelink bandwidth
   double m_baseline_prr = 150.0;
   bool m_prr_sup = true;

@@ -79,7 +79,7 @@
     </vehicle>
       <vehicle id="veh30" type="Car2" depart="7.4" route="3">
     </vehicle>
-      <vehicle id="veh31" type="Car4" depart="8.5" route="4">
+      <!-- <vehicle id="veh31" type="Car4" depart="8.5" route="4">
     </vehicle>
       <vehicle id="veh32" type="Car2" depart="8.6" route="4">
     </vehicle>
@@ -88,8 +88,8 @@
       <vehicle id="veh34" type="Car5" depart="9.8" route="5">
     </vehicle>
       <vehicle id="veh35" type="Car7" depart="10.0" route="4">
-    </vehicle>
-     <vehicle id="veh36" type="Car9" depart="10.2" route="0">
+    </vehicle> -->
+    <!-- <vehicle id="veh36" type="Car9" depart="10.2" route="0">
     </vehicle>
       <vehicle id="veh37" type="Car5" depart="10.5" route="2">
     </vehicle>
@@ -98,5 +98,5 @@
       <vehicle id="veh39" type="Car2" depart="12.0" route="1">
     </vehicle>
       <vehicle id="veh40" type="Car2" depart="12.0" route="0">
-    </vehicle>
+    </vehicle> -->
 </routes>
