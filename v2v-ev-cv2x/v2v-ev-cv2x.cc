@@ -76,7 +76,7 @@ main (int argc, char *argv[])
   uint16_t startRbSubchannel = 0;         // Index of first RB corresponding to subchannelization
   uint16_t pRsvp = 20;                    // Resource reservation interval
   uint16_t t1 = 4;                        // T1 value of selection window
-  uint16_t t2 = 20;                      // T2 value of selection window
+  uint16_t t2 = 180;                      // T2 value of selection window
   uint16_t slBandwidth;                   // Sidelink bandwidth
   double m_baseline_prr = 150.0;
   bool m_prr_sup = true;
