@@ -1,5 +1,4 @@
-current_txpower_dBm,avg_PRR,avg_latency_ms
-40,0.478416,0.43546
+num_nodes,avg_PRR,avg_latency_ms
 40,0.478416,0.43546
 35,0.471236,0.434476
 30,0.471109,0.434618
